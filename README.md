@@ -1,7 +1,7 @@
 # trabalho2-lab
 Pedra papel tesoura e branch com lagarto e spock 
-Esta versão do programa executa o clássico jogo de pedra papel tesoura
-As conhecidas regras são:
+Esta versão do programa executa o clássico jogo de pedra papel tesoura porém, com algumas adições
+Siga abaixo as regras classicas e as novas:
 
 - Tesoura corta papel
 - Papel cobre pedra
