@@ -31,7 +31,7 @@ int main(){
 	printf("Vamos jogar um jogo?\nPedra Papel Tesoura Lagarto e Spock\nVamos escolha um \n1.Pedra \n2.Papel \n3.Tesoura\n4. Lagarto \n5. Spock \n");
 	scanf("%d", &esc_us);
 	while(esc_us <1 || esc_us >5){
-		printf("Valor inválido, digite novamente: ");
+		printf("Valor invÃ¡lido, digite novamente: ");
 		scanf("%d", &esc_us);
 	}
 	printf("\n------------------------------------------\n");
@@ -41,81 +41,81 @@ int main(){
 			printf("Pedra empata com pedra");
 		}
 		if (esc_pc == 2){
-			printf("Papel Amassa pedra \nVocê Perdeu");
+			printf("Papel Amassa pedra \nVocÃª Perdeu");
 		}
 		if (esc_pc == 3){
-			printf("Pedra Quebra Tesoura \nVocê Ganhou, Parabéns!");
+			printf("Pedra Quebra Tesoura \nVocÃª Ganhou, ParabÃ©ns!");
 		}
 		if (esc_pc == 4){
-			printf("Pedra esmaga lagarto \nVocê Ganhou, Parabéns!");
+			printf("Pedra esmaga lagarto \nVocÃª Ganhou, ParabÃ©ns!");
 		}
 		if (esc_pc == 5){
-			printf("Spock vaporiza pedra \nVocê perdeu");
+			printf("Spock vaporiza pedra \nVocÃª perdeu");
 		}
 	}
 	if(esc_us == 2){
 		if (esc_pc == 1){
-			printf("Papel Amassa pedra \nVocê ganhou, Parabéns! ");
+			printf("Papel Amassa pedra \nVocÃª ganhou, ParabÃ©ns! ");
 		}
 		else if(esc_pc == 2){
 			printf("Papel empata com papel");
 		}
 		else if (esc_pc == 3){
-			printf("Tesoura corta Papel \nVocê perdeu");
+			printf("Tesoura corta Papel \nVocÃª perdeu");
 		}
 		else if(esc_pc == 4){
-			printf("Lagarto come papel \nVocê perdeu");
+			printf("Lagarto come papel \nVocÃª perdeu");
 		}
 		else if(esc_pc == 5){
-			printf("Papel refuta Spock \nVocê ganhou,Parabéns!");
+			printf("Papel refuta Spock \nVocÃª ganhou,ParabÃ©ns!");
 		}
 	}
 	if (esc_us == 3){
 		if (esc_pc == 1){
-			printf("Pedra Quebra Tesoura \nVocê Perdeu");
+			printf("Pedra Quebra Tesoura \nVocÃª Perdeu");
 		}
 		if (esc_pc == 2){
-			printf("Tesoura corta o Papel \nVocê ganhou, Parabéns!");
+			printf("Tesoura corta o Papel \nVocÃª ganhou, ParabÃ©ns!");
 		}
 		if (esc_pc == 3){
 			printf("Tesoura empata com tesoura");
 		}
 		if (esc_pc == 4){
-			printf("Tesoura decapita lagarto \nVocê ganhou,Parabéns!");
+			printf("Tesoura decapita lagarto \nVocÃª ganhou,ParabÃ©ns!");
 		}
 		if (esc_pc == 5){
-			printf("Spock derrete tesoura \nVocê perdeu");
+			printf("Spock derrete tesoura \nVocÃª perdeu");
 		}
 	}
 	if (esc_us == 4){
 		if(esc_pc == 1){
-			printf("Pedra esmaga lagarto \nVocê perdeu");
+			printf("Pedra esmaga lagarto \nVocÃª perdeu");
 		}
 		if(esc_pc == 2){
-			printf("Lagarto come papel \nVocê ganhou,Parabéns!");
+			printf("Lagarto come papel \nVocÃª ganhou,ParabÃ©ns!");
 		}
 		if(esc_pc == 3){
-			printf("Tesoura decapita Lagarto \nVocê perdeu");
+			printf("Tesoura decapita Lagarto \nVocÃª perdeu");
 		}
 		if(esc_pc == 4){
 			printf("Lagarto empata com lagarto ");
 		}
 		if(esc_pc == 5){
-			printf("Lagarto envenena Spock \nVocê ganhou, Parabéns!");
+			printf("Lagarto envenena Spock \nVocÃª ganhou, ParabÃ©ns!");
 		}
 	}
 	if (esc_us == 5){
 		if(esc_pc == 1){
-			printf("Spock vaporiza pedra \nVocê ganhou, Parabéns!");
+			printf("Spock vaporiza pedra \nVocÃª ganhou, ParabÃ©ns!");
 		}
 		if(esc_pc == 2){
-			printf("Papel refuta Spock \nVocê perdeu");
+			printf("Papel refuta Spock \nVocÃª perdeu");
 		}
 		if(esc_pc == 3){
-			printf("Spock derrete tesoura \nVocê ganhou, Parabéns!");
+			printf("Spock derrete tesoura \nVocÃª ganhou, ParabÃ©ns!");
 		}
 		if(esc_pc == 4){
-			printf("Lagarto envenena Spock \nVocê perdeu");
+			printf("Lagarto envenena Spock \nVocÃª perdeu");
 		}
 		if(esc_pc == 5){
 			printf("Spock empata com Spock");
@@ -123,11 +123,11 @@ int main(){
 	}
 		
 		printf("\n------------------------------------------\n");
-		printf("\nVocê deseja jogar novamente? (S/N)");
+		printf("\nVocÃª deseja jogar novamente? (S/N)");
 		scanf("    %c",&d);
 		
 		while(d != 'S' && d != 'N'){
-			printf("Resposta inválida, digite novamente (USE MAÍUSCULA!)");
+			printf("Resposta invÃ¡lida, digite novamente (USE MAÃUSCULA!)");
 			scanf("  %c",&d);
 		}
     }while(d == 'S');
